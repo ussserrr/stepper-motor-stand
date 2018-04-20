@@ -53,23 +53,23 @@ $ pio run -t uploadeep  # write EEPROM
 Such help you can also get by sending `help` command to the driver itself.
 ```
 pulse [value]
-	Set the duration of the high-level pulse in microseconds (from 64us to 16384us, integer number). Values like '12345678' will be interpreted as 12345
+  Set the duration of the high-level pulse in microseconds (from 64us to 16384us, integer number). Values like '12345678' will be interpreted as 12345
 
 fullstep
-	Set full-step drive mode of stepper motor
+  Set full-step drive mode of stepper motor
 
 wave
-	Set wave drive mode of stepper motor
+  Set wave drive mode of stepper motor
 
 move/movenb [±steps]
-    Make [±steps] steps in blocking/non-blocking mode and stop (regardless of the previous state). Sign defines the direction
+  Make [±steps] steps in blocking/non-blocking mode and stop (regardless of the previous state). Sign defines the direction
 
 stop
-    Stop the motor in the current position
+  Stop the motor in the current position
 
 info
-	Get an information about a content of timer's registers (compare value and prescaler), current mode (full-step or wave) and movement direction
+  Get an information about a content of timer's registers (compare value and prescaler), current mode (full-step or wave) and movement direction
 
 save
-	Save current configuration in EEPROM
+  Save current configuration in EEPROM
 ```
